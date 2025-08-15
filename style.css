@@ -154,6 +154,14 @@ section h2 {
   text-align: center;
 }
 
+#book-session p {
+  text-align: center;
+}
+
+#book-session p {
+  margin-bottom: 3rem; /* adds space between the paragraph and the form */
+}
+
 #contact p {
   margin-bottom: 3rem; /* adds space between the paragraph and the form */
 }
@@ -178,6 +186,14 @@ form textarea {
   font-family: inherit;
 }
 
+form select {
+  padding: 0.75rem;
+  margin-bottom: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  background-color: #fff;
+}
 
 form label {
   font-weight: bold;
@@ -198,6 +214,8 @@ form button {
 form button:hover {
   background-color: #000000;
 }
+
+
 
 /* ===== FOOTER ===== */
 footer {

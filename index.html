@@ -102,13 +102,38 @@
   </section>
 
   <!-- 5) BOOK A SESSION -->
-  <section id="book">
-    <div class="container">
-      <h2>Book a Session</h2>
-      <p>Ready to take your business to the next level? Let’s talk.</p>
-      <a href="#contact" class="btn">Get Started</a>
-    </div>
-  </section>
+<section id="book-session">
+  <div class="container">
+    <h2>Book a Session</h2>
+    <p>Fill out the form below to schedule your session with us.</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Your Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Your Email" required>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" required>
+
+      <label for="time">Preferred Time:</label>
+      <input type="time" id="time" required>
+
+      <label for="session-type">Session Type:</label>
+      <select id="session-type" required>
+        <option value="">-- Select a Session Type --</option>
+        <option value="business-strategy">Business strategy session</option>
+        <option value="market-research">Market research reports</option>
+        <option value="brand-positioning">Brand positioning guidance</option>
+        <option value="process-optimization">Process optimization</option>
+        <option value="digital-marketing">Digital marketing roadmap</option>
+        <option value="startup-launch">Startup launch support</option>
+      </select>
+
+      <button type="submit" class="btn">Book Now</button>
+    </form>
+  </div>
+</section>
 
   <!-- Footer -->
   <footer>
