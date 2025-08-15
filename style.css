@@ -149,20 +149,40 @@ section h2 {
 }
 
 /* ===== CONTACT ===== */
+#contact h2,
+#contact p {
+  text-align: center;
+}
+
+#contact p {
+  margin-bottom: 3rem; /* adds space between the paragraph and the form */
+}
+
 form {
   max-width: 600px;
   margin: auto;
   display: flex;
   flex-direction: column;
+  padding: 3rem;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  background-color: #fff;
 }
 
 form input,
 form textarea {
   padding: 0.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-family: inherit;
+}
+
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
 }
 
 form button {
