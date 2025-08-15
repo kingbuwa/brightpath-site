@@ -85,16 +85,18 @@ header nav ul li a:hover {
   padding: 2rem 1rem;
   background-color: #fff; /* keeps text on white background */
   color: #000;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .hero h2 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .hero p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 .btn {
@@ -106,6 +108,7 @@ header nav ul li a:hover {
   font-weight: bold;
   border-radius: 10px;
   transition: background 0.3s ease;
+  margin-bottom: 10rem;
 }
 
 .btn:hover {
@@ -124,31 +127,64 @@ section h2 {
 }
 
 /* ===== SERVICES ===== */
+#services {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+#services h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  text-align: center;
 }
 
 .service-card {
-  background: #f9f9f9;
-  padding: 2rem;
-  text-align: center;
+  background: #ffffff;
+  padding: 1.5rem;
   border-radius: 8px;
   transition: transform 0.3s ease;
 }
 
 .service-card img {
-  width: 50px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
   margin-bottom: 1rem;
 }
 
 .service-card h3 {
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #555;
 }
 
 .service-card:hover {
   transform: translateY(-5px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ===== ABOUT ===== */
@@ -156,6 +192,7 @@ section h2 {
   max-width: 700px;
   margin: auto;
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 /* ===== CONTACT ===== */
