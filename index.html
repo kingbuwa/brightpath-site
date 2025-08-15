@@ -94,54 +94,69 @@ and more effective for every entrepreneur we work with.</b></p>
 
   <!-- 4) CONTACT -->
   <section id="contact">
-    <div class="container">
+  <div class="container contact-wrapper">
+    <div class="contact-image">
+      <img src="images/contact.png" alt="Contact Us">
+    </div>
+
+    <div class="contact-form">
       <h2>Contact Us</h2>
-      <p>Fill out the form below and we’ll get back to you within 24 hours to discuss your needs.</p>
+      <p>Fill out the form below and we’ll get back to you within 24 hours.</p>
       <form>
         <label for="name">Name:</label>
         <input type="text" placeholder="Your Name" required>
+        
         <label for="email">Email:</label>
         <input type="email" placeholder="Your Email" required>
-        <label for="text">Subject:</label>
+        
+        <label for="subject">Subject:</label>
         <input type="text" placeholder="Subject" required>
+        
         <label for="message">Message:</label>
         <textarea placeholder="Your Message" rows="5" required></textarea>
+        
         <button type="submit" class="btn">Send Message</button>
       </form>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- 5) BOOK A SESSION -->
-<section id="book-session">
-  <div class="container">
-    <h2>Book a Session</h2>
-    <p>Choose a time that works for you and let’s dive into your business challenges and goals.</p>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" placeholder="Your Name" required>
+<section id="booking">
+  <div class="container contact-wrapper">
+    <div class="contact-image">
+      <img src="images/book.png" alt="Book a Session">
+    </div>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="Your Email" required>
-
-      <label for="date">Preferred Date:</label>
-      <input type="date" id="date" required>
-
-      <label for="time">Preferred Time:</label>
-      <input type="time" id="time" required>
-
-      <label for="session-type">Session Type:</label>
-      <select id="session-type" required>
-        <option value="">-- Select a Session Type --</option>
-        <option value="business-strategy">Business strategy session</option>
-        <option value="market-research">Market research reports</option>
-        <option value="brand-positioning">Brand positioning guidance</option>
-        <option value="process-optimization">Process optimization</option>
-        <option value="digital-marketing">Digital marketing roadmap</option>
-        <option value="startup-launch">Startup launch support</option>
-      </select>
-
-      <button type="submit" class="btn">Book Now</button>
-    </form>
+    <div class="contact-form">
+      <h2>Book a Session</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" placeholder="Your Email" required>
+        
+        <label for="date">Preferred Date:</label>
+        <input type="date" required>
+        
+        <label for="time">Preferred Time:</label>
+        <input type="time" required>
+        
+        <label for="session">Session Type:</label>
+        <select required>
+          <option value="">-- Select --</option>
+          <option>Business Strategy Session</option>
+          <option>Market Research Reports</option>
+          <option>Brand Positioning Guidance</option>
+          <option>Process Optimization</option>
+          <option>Digital Marketing Roadmap</option>
+          <option>Startup Launch Support</option>
+        </select>
+        
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+    </div>
   </div>
 </section>
 
