@@ -30,8 +30,8 @@ section {
 
 /* ===== HEADER ===== */
 header {
-  background-color: #000000;
-  color: #fff;
+  background-color: #fffefe;
+  color: #000000;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -59,7 +59,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease;
@@ -72,7 +72,7 @@ header nav ul li a:hover {
 /* ===== HERO ===== */
 .hero {
   background: url('images/hero.jpg') center/cover no-repeat;
-  color: #fff;
+  color: #000000;
   text-align: center;
   padding: 5rem 1rem;
 }
