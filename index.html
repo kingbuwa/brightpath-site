@@ -10,20 +10,41 @@
 <body>
 
   <!-- Header -->
-  <header>
-    <div class="container">
-      <h1 class="logo">BrightPath</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#booking">Book a Session</a></li>
-        </ul>
-      </nav>
+  <header class="sticky-header">
+  <div class="container header-flex">
+
+    <!-- Left: Text first, then logo -->
+    <div class="logo">
+      <span>BrightPath</span>
+      <img src="images/brightpath.png" alt="BrightPath Logo">
     </div>
-  </header>
+
+    <!-- Center: Navigation -->
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#booking">Book a Session</a></li>
+      </ul>
+    </nav>
+
+    <!-- Right: Social icons -->
+    <div class="social-icons">
+      <a href="https://linkedin.com" target="_blank">
+        <img src="images/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="https://x.com" target="_blank">
+        <img src="images/x.png" alt="X">
+      </a>
+      <a href="https://youtube.com" target="_blank">
+        <img src="images/youtube.png" alt="YouTube">
+      </a>
+    </div>
+
+  </div>
+</header>
 
   <!-- 1) HOME -->
    <section id="home"></section>
@@ -36,6 +57,8 @@
     <a href="#services" class="btn">Book A Session</a>
   </div>
 </section>
+
+<hr class="section-divider">
 
   <!-- 2) SERVICES -->
 <section id="services">
@@ -82,6 +105,8 @@ branding, and go-to-market strategies.</p>
   </div>
 </section>
 
+<hr class="section-divider">
+
   <!-- 3) ABOUT -->
   <section id="about">
     <div class="container">
@@ -92,6 +117,8 @@ Whether you’re launching your first business or scaling an existing one, we pr
 and more effective for every entrepreneur we work with.</b></p>
     </div>
   </section>
+
+  <hr class="section-divider">
 
   <!-- 4) CONTACT -->
   <section id="contact">
@@ -121,6 +148,8 @@ and more effective for every entrepreneur we work with.</b></p>
     </div>
   </div>
 </section>
+
+<hr class="section-divider">
 
   <!-- 5) BOOK A SESSION -->
 <section id="booking">

@@ -21,6 +21,67 @@ section {
   scroll-margin-top: 80px;
 }
 
+/* Sticky Header */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+}
+
+/* Left: Text then logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo img {
+  height: 35px;
+  width: auto;
+}
+.logo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Center: Navigation */
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-menu li a:hover {
+  color: #007bff;
+}
+
+/* Right: Social icons */
+.social-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+.social-icons img {
+  height: 20px;
+  width: auto;
+  transition: opacity 0.3s;
+}
+.social-icons img:hover {
+  opacity: 0.7;
+}
+
 /* ===== CONTAINER ===== */
 .container {
   width: 90%;
@@ -134,7 +195,8 @@ section h2 {
 
 #services h2 {
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
   color: #000;
 }
 
@@ -256,6 +318,15 @@ section h2 {
   .contact-image img {
     max-width: 100%;
   }
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+  margin: 3rem auto;
+  width: 80%;
+  border-radius: 5px;
 }
 
 /* ===== ABOUT ===== */
