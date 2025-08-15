@@ -71,10 +71,20 @@ header nav ul li a:hover {
 
 /* ===== HERO ===== */
 .hero {
-  background: url('images/hero.jpg') center/cover no-repeat;
-  color: #000000;
   text-align: center;
-  padding: 5rem 1rem;
+  padding: 0;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  padding: 2rem 1rem;
+  background-color: #fff; /* keeps text on white background */
+  color: #000;
 }
 
 .hero h2 {
